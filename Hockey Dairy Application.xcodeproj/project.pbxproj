@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B76734AD2B8FA9CF00F4D6BD /* HDInventoryV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76734AC2B8FA9CF00F4D6BD /* HDInventoryV.swift */; };
+		B767D4C92B8FBFD4006BBED3 /* HDTabVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4C82B8FBFD4006BBED3 /* HDTabVM.swift */; };
+		B767D4CB2B8FC9F9006BBED3 /* HDCreateInventary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4CA2B8FC9F9006BBED3 /* HDCreateInventary.swift */; };
+		B767D4CD2B8FCC6F006BBED3 /* HDInventoryTypeField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4CC2B8FCC6F006BBED3 /* HDInventoryTypeField.swift */; };
+		B767D4CF2B8FD0FD006BBED3 /* HDInventoryAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4CE2B8FD0FD006BBED3 /* HDInventoryAlert.swift */; };
+		B767D4D12B9088C3006BBED3 /* HDShoppingListItemV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4D02B9088C3006BBED3 /* HDShoppingListItemV.swift */; };
+		B767D4D32B9088D4006BBED3 /* HDShoppintListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4D22B9088D4006BBED3 /* HDShoppintListCell.swift */; };
+		B767D4D82B908A1C006BBED3 /* HDInventoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4D72B908A1C006BBED3 /* HDInventoryVM.swift */; };
+		B767D4DA2B908A2D006BBED3 /* HDShoppingListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4D92B908A2D006BBED3 /* HDShoppingListVM.swift */; };
+		B767D4DD2B909398006BBED3 /* HDPageWrIos15.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4DC2B909398006BBED3 /* HDPageWrIos15.swift */; };
+		B767D4E02B920599006BBED3 /* HDCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4DF2B920599006BBED3 /* HDCalendarCell.swift */; };
+		B767D4E42B9205D5006BBED3 /* HDCalendarAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4E32B9205D5006BBED3 /* HDCalendarAbout.swift */; };
+		B767D4E62B9205F5006BBED3 /* HDCalendarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D4E52B9205F5006BBED3 /* HDCalendarVM.swift */; };
+		B767D5082B93660F006BBED3 /* HDBigBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D5072B93660F006BBED3 /* HDBigBanner.swift */; };
+		B767D50A2B946A98006BBED3 /* HDCalendarDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D5092B946A98006BBED3 /* HDCalendarDatePicker.swift */; };
+		B767D50C2B947254006BBED3 /* HDCalendarTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D50B2B947254006BBED3 /* HDCalendarTimePicker.swift */; };
+		B767D50E2B94762E006BBED3 /* HDCalendarTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D50D2B94762E006BBED3 /* HDCalendarTextField.swift */; };
+		B767D5102B947FE5006BBED3 /* HDCalendarAdditionalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767D50F2B947FE5006BBED3 /* HDCalendarAdditionalInfo.swift */; };
+		B77854042B966C5F003FFBD4 /* HDTeamInventoryForNewPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77854032B966C5F003FFBD4 /* HDTeamInventoryForNewPlayer.swift */; };
+		B7789F502B8C5875000C1939 /* Hockey_Dairy_ApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F4F2B8C5875000C1939 /* Hockey_Dairy_ApplicationApp.swift */; };
+		B7789F542B8C5877000C1939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7789F532B8C5877000C1939 /* Assets.xcassets */; };
+		B7789F572B8C5877000C1939 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7789F562B8C5877000C1939 /* Preview Assets.xcassets */; };
+		B7789F5C2B8C5877000C1939 /* Hockey_Dairy_Application.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7789F5A2B8C5877000C1939 /* Hockey_Dairy_Application.xcdatamodeld */; };
+		B7789F692B8C58E8000C1939 /* HDCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F682B8C58E8000C1939 /* HDCoreDataManager.swift */; };
+		B7789F6C2B8C58FA000C1939 /* HDCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F6B2B8C58FA000C1939 /* HDCombineManager.swift */; };
+		B7789F6F2B8C5918000C1939 /* HDWVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F6E2B8C5918000C1939 /* HDWVManager.swift */; };
+		B7789F712B8C5974000C1939 /* HDExtensionCornerRadiusWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F702B8C5974000C1939 /* HDExtensionCornerRadiusWithBorder.swift */; };
+		B7789F732B8C5988000C1939 /* HDTextEditorBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F722B8C5988000C1939 /* HDTextEditorBackground.swift */; };
+		B7789F752B8C59A1000C1939 /* HDProgressBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F742B8C59A1000C1939 /* HDProgressBarModel.swift */; };
+		B7789F7F2B8C5A18000C1939 /* HDSplashVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F7E2B8C5A18000C1939 /* HDSplashVM.swift */; };
+		B7789F812B8C5A21000C1939 /* HDSplashV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F802B8C5A21000C1939 /* HDSplashV.swift */; };
+		B7789F832B8C5A37000C1939 /* HDOnboardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F822B8C5A36000C1939 /* HDOnboardingVM.swift */; };
+		B7789F852B8C5A44000C1939 /* HDOnboardingV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F842B8C5A44000C1939 /* HDOnboardingV.swift */; };
+		B7789F872B8C5A58000C1939 /* HDSettingsV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F862B8C5A58000C1939 /* HDSettingsV.swift */; };
+		B7789F892B8C5A61000C1939 /* HDCalendarV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F882B8C5A61000C1939 /* HDCalendarV.swift */; };
+		B7789F8B2B8C5A6B000C1939 /* HDShoppingListV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F8A2B8C5A6B000C1939 /* HDShoppingListV.swift */; };
+		B7789F8F2B8C5A7C000C1939 /* HDTeamV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F8E2B8C5A7C000C1939 /* HDTeamV.swift */; };
+		B7789F912B8C5A86000C1939 /* HDWVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7789F902B8C5A86000C1939 /* HDWVV.swift */; };
+		B7789F932B8C5DD2000C1939 /* AppName.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7789F922B8C5DD2000C1939 /* AppName.strings */; };
+		B77E0F992B95E3BD00932FA8 /* HDTeamInventoryAddV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77E0F982B95E3BD00932FA8 /* HDTeamInventoryAddV.swift */; };
+		B77E0F9B2B95E3CB00932FA8 /* HDTeamInventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77E0F9A2B95E3CB00932FA8 /* HDTeamInventoryCell.swift */; };
+		B788720E2B8C673C002558C0 /* HDNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788720D2B8C673C002558C0 /* HDNetworkManager.swift */; };
+		B78872112B8C6F54002558C0 /* HDTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872102B8C6F54002558C0 /* HDTabView.swift */; };
+		B78872132B8C718F002558C0 /* HDOnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872122B8C718F002558C0 /* HDOnboardingModel.swift */; };
+		B78872162B8C738B002558C0 /* HDOnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872152B8C738B002558C0 /* HDOnboardingCell.swift */; };
+		B78872182B8C73D7002558C0 /* HDRoundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872172B8C73D7002558C0 /* HDRoundedBtn.swift */; };
+		B788721A2B8C7581002558C0 /* HDImageDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872192B8C7581002558C0 /* HDImageDots.swift */; };
+		B788721D2B8C8E13002558C0 /* HDNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788721C2B8C8E13002558C0 /* HDNotificationManager.swift */; };
+		B788721F2B8CA2EE002558C0 /* HDPageWr.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788721E2B8CA2EE002558C0 /* HDPageWr.swift */; };
+		B78872212B8CAA57002558C0 /* HockeyPlayerTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872202B8CAA57002558C0 /* HockeyPlayerTypeModel.swift */; };
+		B78872232B8CAB5F002558C0 /* HDTeamVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872222B8CAB5F002558C0 /* HDTeamVM.swift */; };
+		B78872252B8CABEE002558C0 /* HDEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872242B8CABEE002558C0 /* HDEmptyView.swift */; };
+		B78872272B8CB34A002558C0 /* HDEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872262B8CB34A002558C0 /* HDEntityType.swift */; };
+		B78872292B8CBCA5002558C0 /* HDTeamVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872282B8CBCA5002558C0 /* HDTeamVCell.swift */; };
+		B788722B2B8CBD27002558C0 /* HDBaloonTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788722A2B8CBD27002558C0 /* HDBaloonTag.swift */; };
+		B788722E2B8CCD27002558C0 /* HDTeamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788722D2B8CCD27002558C0 /* HDTeamSection.swift */; };
+		B78872302B8D9A24002558C0 /* HDTeamAddPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788722F2B8D9A24002558C0 /* HDTeamAddPlayer.swift */; };
+		B78872322B8DA21F002558C0 /* HDIconCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872312B8DA21F002558C0 /* HDIconCloseButton.swift */; };
+		B78872352B8DA3DF002558C0 /* HDImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872342B8DA3DF002558C0 /* HDImagePicker.swift */; };
+		B78872372B8DAC30002558C0 /* HDRoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872362B8DAC30002558C0 /* HDRoundedTextField.swift */; };
+		B78872392B8DB27A002558C0 /* HDRoundedDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872382B8DB27A002558C0 /* HDRoundedDatePicker.swift */; };
+		B788723B2B8DBE27002558C0 /* HDRoundedPositionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788723A2B8DBE27002558C0 /* HDRoundedPositionField.swift */; };
+		B788723D2B8DC14D002558C0 /* HDPositionAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788723C2B8DC14D002558C0 /* HDPositionAlert.swift */; };
+		B788723F2B8E21AC002558C0 /* HDAboutPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788723E2B8E21AC002558C0 /* HDAboutPlayer.swift */; };
+		B78872422B8F5245002558C0 /* HDInventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872412B8F5245002558C0 /* HDInventoryCell.swift */; };
+		B78872442B8F52FA002558C0 /* HDInventoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872432B8F52FA002558C0 /* HDInventoryType.swift */; };
+		B78872462B8F5682002558C0 /* SwipeButtonInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872452B8F5682002558C0 /* SwipeButtonInCell.swift */; };
+		B78872482B8F5806002558C0 /* HDAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78872472B8F5806002558C0 /* HDAddButton.swift */; };
+		B788724C2B8F5E89002558C0 /* HDSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788724B2B8F5E89002558C0 /* HDSearchBar.swift */; };
+		B7B87FD02B98929400F93B20 /* HDSettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87FCF2B98929400F93B20 /* HDSettingsVM.swift */; };
+		B7BCF54F2B97281400AC0CBF /* HDDateFormetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCF54E2B97281400AC0CBF /* HDDateFormetter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B76734AC2B8FA9CF00F4D6BD /* HDInventoryV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDInventoryV.swift; sourceTree = "<group>"; };
+		B767D4C82B8FBFD4006BBED3 /* HDTabVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTabVM.swift; sourceTree = "<group>"; };
+		B767D4CA2B8FC9F9006BBED3 /* HDCreateInventary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCreateInventary.swift; sourceTree = "<group>"; };
+		B767D4CC2B8FCC6F006BBED3 /* HDInventoryTypeField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDInventoryTypeField.swift; sourceTree = "<group>"; };
+		B767D4CE2B8FD0FD006BBED3 /* HDInventoryAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDInventoryAlert.swift; sourceTree = "<group>"; };
+		B767D4D02B9088C3006BBED3 /* HDShoppingListItemV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDShoppingListItemV.swift; sourceTree = "<group>"; };
+		B767D4D22B9088D4006BBED3 /* HDShoppintListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDShoppintListCell.swift; sourceTree = "<group>"; };
+		B767D4D72B908A1C006BBED3 /* HDInventoryVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDInventoryVM.swift; sourceTree = "<group>"; };
+		B767D4D92B908A2D006BBED3 /* HDShoppingListVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDShoppingListVM.swift; sourceTree = "<group>"; };
+		B767D4DC2B909398006BBED3 /* HDPageWrIos15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDPageWrIos15.swift; sourceTree = "<group>"; };
+		B767D4DF2B920599006BBED3 /* HDCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCalendarCell.swift; sourceTree = "<group>"; };
+		B767D4E32B9205D5006BBED3 /* HDCalendarAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCalendarAbout.swift; sourceTree = "<group>"; };
+		B767D4E52B9205F5006BBED3 /* HDCalendarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCalendarVM.swift; sourceTree = "<group>"; };
+		B767D5072B93660F006BBED3 /* HDBigBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDBigBanner.swift; sourceTree = "<group>"; };
+		B767D5092B946A98006BBED3 /* HDCalendarDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCalendarDatePicker.swift; sourceTree = "<group>"; };
+		B767D50B2B947254006BBED3 /* HDCalendarTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCalendarTimePicker.swift; sourceTree = "<group>"; };
+		B767D50D2B94762E006BBED3 /* HDCalendarTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCalendarTextField.swift; sourceTree = "<group>"; };
+		B767D50F2B947FE5006BBED3 /* HDCalendarAdditionalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCalendarAdditionalInfo.swift; sourceTree = "<group>"; };
+		B77854032B966C5F003FFBD4 /* HDTeamInventoryForNewPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTeamInventoryForNewPlayer.swift; sourceTree = "<group>"; };
+		B7789F4C2B8C5875000C1939 /* 1W Hockey : Forward to success.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1W Hockey : Forward to success.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7789F4F2B8C5875000C1939 /* Hockey_Dairy_ApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hockey_Dairy_ApplicationApp.swift; sourceTree = "<group>"; };
+		B7789F532B8C5877000C1939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7789F562B8C5877000C1939 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7789F5B2B8C5877000C1939 /* Hockey_Dairy_Application.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hockey_Dairy_Application.xcdatamodel; sourceTree = "<group>"; };
+		B7789F682B8C58E8000C1939 /* HDCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCoreDataManager.swift; sourceTree = "<group>"; };
+		B7789F6B2B8C58FA000C1939 /* HDCombineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCombineManager.swift; sourceTree = "<group>"; };
+		B7789F6E2B8C5918000C1939 /* HDWVManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDWVManager.swift; sourceTree = "<group>"; };
+		B7789F702B8C5974000C1939 /* HDExtensionCornerRadiusWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDExtensionCornerRadiusWithBorder.swift; sourceTree = "<group>"; };
+		B7789F722B8C5988000C1939 /* HDTextEditorBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTextEditorBackground.swift; sourceTree = "<group>"; };
+		B7789F742B8C59A1000C1939 /* HDProgressBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDProgressBarModel.swift; sourceTree = "<group>"; };
+		B7789F7E2B8C5A18000C1939 /* HDSplashVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDSplashVM.swift; sourceTree = "<group>"; };
+		B7789F802B8C5A21000C1939 /* HDSplashV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDSplashV.swift; sourceTree = "<group>"; };
+		B7789F822B8C5A36000C1939 /* HDOnboardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDOnboardingVM.swift; sourceTree = "<group>"; };
+		B7789F842B8C5A44000C1939 /* HDOnboardingV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDOnboardingV.swift; sourceTree = "<group>"; };
+		B7789F862B8C5A58000C1939 /* HDSettingsV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDSettingsV.swift; sourceTree = "<group>"; };
+		B7789F882B8C5A61000C1939 /* HDCalendarV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCalendarV.swift; sourceTree = "<group>"; };
+		B7789F8A2B8C5A6B000C1939 /* HDShoppingListV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDShoppingListV.swift; sourceTree = "<group>"; };
+		B7789F8E2B8C5A7C000C1939 /* HDTeamV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTeamV.swift; sourceTree = "<group>"; };
+		B7789F902B8C5A86000C1939 /* HDWVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDWVV.swift; sourceTree = "<group>"; };
+		B7789F922B8C5DD2000C1939 /* AppName.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = AppName.strings; sourceTree = "<group>"; };
+		B77E0F982B95E3BD00932FA8 /* HDTeamInventoryAddV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTeamInventoryAddV.swift; sourceTree = "<group>"; };
+		B77E0F9A2B95E3CB00932FA8 /* HDTeamInventoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTeamInventoryCell.swift; sourceTree = "<group>"; };
+		B788720D2B8C673C002558C0 /* HDNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetworkManager.swift; sourceTree = "<group>"; };
+		B78872102B8C6F54002558C0 /* HDTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTabView.swift; sourceTree = "<group>"; };
+		B78872122B8C718F002558C0 /* HDOnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDOnboardingModel.swift; sourceTree = "<group>"; };
+		B78872152B8C738B002558C0 /* HDOnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDOnboardingCell.swift; sourceTree = "<group>"; };
+		B78872172B8C73D7002558C0 /* HDRoundedBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDRoundedBtn.swift; sourceTree = "<group>"; };
+		B78872192B8C7581002558C0 /* HDImageDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDImageDots.swift; sourceTree = "<group>"; };
+		B788721C2B8C8E13002558C0 /* HDNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNotificationManager.swift; sourceTree = "<group>"; };
+		B788721E2B8CA2EE002558C0 /* HDPageWr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDPageWr.swift; sourceTree = "<group>"; };
+		B78872202B8CAA57002558C0 /* HockeyPlayerTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyPlayerTypeModel.swift; sourceTree = "<group>"; };
+		B78872222B8CAB5F002558C0 /* HDTeamVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTeamVM.swift; sourceTree = "<group>"; };
+		B78872242B8CABEE002558C0 /* HDEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDEmptyView.swift; sourceTree = "<group>"; };
+		B78872262B8CB34A002558C0 /* HDEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDEntityType.swift; sourceTree = "<group>"; };
+		B78872282B8CBCA5002558C0 /* HDTeamVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTeamVCell.swift; sourceTree = "<group>"; };
+		B788722A2B8CBD27002558C0 /* HDBaloonTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDBaloonTag.swift; sourceTree = "<group>"; };
+		B788722D2B8CCD27002558C0 /* HDTeamSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTeamSection.swift; sourceTree = "<group>"; };
+		B788722F2B8D9A24002558C0 /* HDTeamAddPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTeamAddPlayer.swift; sourceTree = "<group>"; };
+		B78872312B8DA21F002558C0 /* HDIconCloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDIconCloseButton.swift; sourceTree = "<group>"; };
+		B78872342B8DA3DF002558C0 /* HDImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDImagePicker.swift; sourceTree = "<group>"; };
+		B78872362B8DAC30002558C0 /* HDRoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDRoundedTextField.swift; sourceTree = "<group>"; };
+		B78872382B8DB27A002558C0 /* HDRoundedDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDRoundedDatePicker.swift; sourceTree = "<group>"; };
+		B788723A2B8DBE27002558C0 /* HDRoundedPositionField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDRoundedPositionField.swift; sourceTree = "<group>"; };
+		B788723C2B8DC14D002558C0 /* HDPositionAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDPositionAlert.swift; sourceTree = "<group>"; };
+		B788723E2B8E21AC002558C0 /* HDAboutPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDAboutPlayer.swift; sourceTree = "<group>"; };
+		B78872412B8F5245002558C0 /* HDInventoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDInventoryCell.swift; sourceTree = "<group>"; };
+		B78872432B8F52FA002558C0 /* HDInventoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDInventoryType.swift; sourceTree = "<group>"; };
+		B78872452B8F5682002558C0 /* SwipeButtonInCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeButtonInCell.swift; sourceTree = "<group>"; };
+		B78872472B8F5806002558C0 /* HDAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDAddButton.swift; sourceTree = "<group>"; };
+		B788724B2B8F5E89002558C0 /* HDSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDSearchBar.swift; sourceTree = "<group>"; };
+		B7B87FCF2B98929400F93B20 /* HDSettingsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDSettingsVM.swift; sourceTree = "<group>"; };
+		B7BCF54E2B97281400AC0CBF /* HDDateFormetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDateFormetter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7789F492B8C5875000C1939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B767D4D62B908920006BBED3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B767D4D22B9088D4006BBED3 /* HDShoppintListCell.swift */,
+				B767D4D02B9088C3006BBED3 /* HDShoppingListItemV.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B767D4DB2B908A47006BBED3 /* HDPTabModels */ = {
+			isa = PBXGroup;
+			children = (
+				B767D4D92B908A2D006BBED3 /* HDShoppingListVM.swift */,
+				B767D4D72B908A1C006BBED3 /* HDInventoryVM.swift */,
+			);
+			path = HDPTabModels;
+			sourceTree = "<group>";
+		};
+		B767D4DE2B920579006BBED3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B767D4DF2B920599006BBED3 /* HDCalendarCell.swift */,
+				B767D4E32B9205D5006BBED3 /* HDCalendarAbout.swift */,
+				B767D5072B93660F006BBED3 /* HDBigBanner.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B7789F432B8C5875000C1939 = {
+			isa = PBXGroup;
+			children = (
+				B7789F4E2B8C5875000C1939 /* Hockey Dairy Application */,
+				B7789F4D2B8C5875000C1939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7789F4D2B8C5875000C1939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F4C2B8C5875000C1939 /* 1W Hockey : Forward to success.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7789F4E2B8C5875000C1939 /* Hockey Dairy Application */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F662B8C58B6000C1939 /* HDService */,
+				B7789F652B8C58AC000C1939 /* HDExtensions */,
+				B7789F642B8C589A000C1939 /* HDPages */,
+				B7789F632B8C5891000C1939 /* HDUI */,
+				B7789F622B8C5880000C1939 /* HDModels */,
+				B7789F4F2B8C5875000C1939 /* Hockey_Dairy_ApplicationApp.swift */,
+				B7789F922B8C5DD2000C1939 /* AppName.strings */,
+				B7789F532B8C5877000C1939 /* Assets.xcassets */,
+				B7789F5A2B8C5877000C1939 /* Hockey_Dairy_Application.xcdatamodeld */,
+				B7789F552B8C5877000C1939 /* Preview Content */,
+			);
+			path = "Hockey Dairy Application";
+			sourceTree = "<group>";
+		};
+		B7789F552B8C5877000C1939 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F562B8C5877000C1939 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7789F622B8C5880000C1939 /* HDModels */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F742B8C59A1000C1939 /* HDProgressBarModel.swift */,
+				B78872122B8C718F002558C0 /* HDOnboardingModel.swift */,
+				B78872202B8CAA57002558C0 /* HockeyPlayerTypeModel.swift */,
+				B78872262B8CB34A002558C0 /* HDEntityType.swift */,
+				B78872432B8F52FA002558C0 /* HDInventoryType.swift */,
+			);
+			path = HDModels;
+			sourceTree = "<group>";
+		};
+		B7789F632B8C5891000C1939 /* HDUI */ = {
+			isa = PBXGroup;
+			children = (
+				B78872192B8C7581002558C0 /* HDImageDots.swift */,
+				B788721E2B8CA2EE002558C0 /* HDPageWr.swift */,
+				B767D4DC2B909398006BBED3 /* HDPageWrIos15.swift */,
+				B78872242B8CABEE002558C0 /* HDEmptyView.swift */,
+				B788722A2B8CBD27002558C0 /* HDBaloonTag.swift */,
+				B78872312B8DA21F002558C0 /* HDIconCloseButton.swift */,
+				B78872172B8C73D7002558C0 /* HDRoundedBtn.swift */,
+				B78872362B8DAC30002558C0 /* HDRoundedTextField.swift */,
+				B78872382B8DB27A002558C0 /* HDRoundedDatePicker.swift */,
+				B788723A2B8DBE27002558C0 /* HDRoundedPositionField.swift */,
+				B788723C2B8DC14D002558C0 /* HDPositionAlert.swift */,
+				B767D4CE2B8FD0FD006BBED3 /* HDInventoryAlert.swift */,
+				B78872472B8F5806002558C0 /* HDAddButton.swift */,
+				B788724B2B8F5E89002558C0 /* HDSearchBar.swift */,
+				B767D4CC2B8FCC6F006BBED3 /* HDInventoryTypeField.swift */,
+				B767D5092B946A98006BBED3 /* HDCalendarDatePicker.swift */,
+				B767D50B2B947254006BBED3 /* HDCalendarTimePicker.swift */,
+				B767D50D2B94762E006BBED3 /* HDCalendarTextField.swift */,
+				B767D50F2B947FE5006BBED3 /* HDCalendarAdditionalInfo.swift */,
+			);
+			path = HDUI;
+			sourceTree = "<group>";
+		};
+		B7789F642B8C589A000C1939 /* HDPages */ = {
+			isa = PBXGroup;
+			children = (
+				B788720F2B8C6F41002558C0 /* HDTabView */,
+				B7789F7D2B8C59F8000C1939 /* HDWV */,
+				B7789F7C2B8C59EF000C1939 /* HDTeam */,
+				B7789F7B2B8C59E7000C1939 /* HDInventory */,
+				B7789F7A2B8C59DC000C1939 /* HDShoppingList */,
+				B7789F792B8C59D1000C1939 /* HDCalendar */,
+				B7789F782B8C59C8000C1939 /* HDSettings */,
+				B7789F772B8C59BF000C1939 /* HDOnboarding */,
+				B7789F762B8C59B8000C1939 /* HDSplash */,
+			);
+			path = HDPages;
+			sourceTree = "<group>";
+		};
+		B7789F652B8C58AC000C1939 /* HDExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F702B8C5974000C1939 /* HDExtensionCornerRadiusWithBorder.swift */,
+				B7789F722B8C5988000C1939 /* HDTextEditorBackground.swift */,
+			);
+			path = HDExtensions;
+			sourceTree = "<group>";
+		};
+		B7789F662B8C58B6000C1939 /* HDService */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCF54D2B97280100AC0CBF /* HDDateFormatter */,
+				B788724D2B8F92B3002558C0 /* HDSwipeButtonsCell */,
+				B78872332B8DA3C1002558C0 /* HDImagePicker */,
+				B788721B2B8C8DFF002558C0 /* HDNotification */,
+				B788720C2B8C6728002558C0 /* HDNetwork */,
+				B7789F6D2B8C58FE000C1939 /* HDWebView */,
+				B7789F6A2B8C58ED000C1939 /* HDCombine */,
+				B7789F672B8C58D4000C1939 /* HDCoreData */,
+			);
+			path = HDService;
+			sourceTree = "<group>";
+		};
+		B7789F672B8C58D4000C1939 /* HDCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F682B8C58E8000C1939 /* HDCoreDataManager.swift */,
+			);
+			path = HDCoreData;
+			sourceTree = "<group>";
+		};
+		B7789F6A2B8C58ED000C1939 /* HDCombine */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F6B2B8C58FA000C1939 /* HDCombineManager.swift */,
+			);
+			path = HDCombine;
+			sourceTree = "<group>";
+		};
+		B7789F6D2B8C58FE000C1939 /* HDWebView */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F6E2B8C5918000C1939 /* HDWVManager.swift */,
+			);
+			path = HDWebView;
+			sourceTree = "<group>";
+		};
+		B7789F762B8C59B8000C1939 /* HDSplash */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F7E2B8C5A18000C1939 /* HDSplashVM.swift */,
+				B7789F802B8C5A21000C1939 /* HDSplashV.swift */,
+			);
+			path = HDSplash;
+			sourceTree = "<group>";
+		};
+		B7789F772B8C59BF000C1939 /* HDOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B78872142B8C737A002558C0 /* HDComp */,
+				B7789F822B8C5A36000C1939 /* HDOnboardingVM.swift */,
+				B7789F842B8C5A44000C1939 /* HDOnboardingV.swift */,
+			);
+			path = HDOnboarding;
+			sourceTree = "<group>";
+		};
+		B7789F782B8C59C8000C1939 /* HDSettings */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F862B8C5A58000C1939 /* HDSettingsV.swift */,
+				B7B87FCF2B98929400F93B20 /* HDSettingsVM.swift */,
+			);
+			path = HDSettings;
+			sourceTree = "<group>";
+		};
+		B7789F792B8C59D1000C1939 /* HDCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				B767D4DE2B920579006BBED3 /* Components */,
+				B7789F882B8C5A61000C1939 /* HDCalendarV.swift */,
+				B767D4E52B9205F5006BBED3 /* HDCalendarVM.swift */,
+			);
+			path = HDCalendar;
+			sourceTree = "<group>";
+		};
+		B7789F7A2B8C59DC000C1939 /* HDShoppingList */ = {
+			isa = PBXGroup;
+			children = (
+				B767D4D62B908920006BBED3 /* Components */,
+				B7789F8A2B8C5A6B000C1939 /* HDShoppingListV.swift */,
+			);
+			path = HDShoppingList;
+			sourceTree = "<group>";
+		};
+		B7789F7B2B8C59E7000C1939 /* HDInventory */ = {
+			isa = PBXGroup;
+			children = (
+				B78872402B8F5233002558C0 /* Components */,
+				B76734AC2B8FA9CF00F4D6BD /* HDInventoryV.swift */,
+			);
+			path = HDInventory;
+			sourceTree = "<group>";
+		};
+		B7789F7C2B8C59EF000C1939 /* HDTeam */ = {
+			isa = PBXGroup;
+			children = (
+				B788722C2B8CCCC1002558C0 /* Components */,
+				B7789F8E2B8C5A7C000C1939 /* HDTeamV.swift */,
+				B78872222B8CAB5F002558C0 /* HDTeamVM.swift */,
+			);
+			path = HDTeam;
+			sourceTree = "<group>";
+		};
+		B7789F7D2B8C59F8000C1939 /* HDWV */ = {
+			isa = PBXGroup;
+			children = (
+				B7789F902B8C5A86000C1939 /* HDWVV.swift */,
+			);
+			path = HDWV;
+			sourceTree = "<group>";
+		};
+		B788720C2B8C6728002558C0 /* HDNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B788720D2B8C673C002558C0 /* HDNetworkManager.swift */,
+			);
+			path = HDNetwork;
+			sourceTree = "<group>";
+		};
+		B788720F2B8C6F41002558C0 /* HDTabView */ = {
+			isa = PBXGroup;
+			children = (
+				B767D4DB2B908A47006BBED3 /* HDPTabModels */,
+				B78872102B8C6F54002558C0 /* HDTabView.swift */,
+				B767D4C82B8FBFD4006BBED3 /* HDTabVM.swift */,
+			);
+			path = HDTabView;
+			sourceTree = "<group>";
+		};
+		B78872142B8C737A002558C0 /* HDComp */ = {
+			isa = PBXGroup;
+			children = (
+				B78872152B8C738B002558C0 /* HDOnboardingCell.swift */,
+			);
+			path = HDComp;
+			sourceTree = "<group>";
+		};
+		B788721B2B8C8DFF002558C0 /* HDNotification */ = {
+			isa = PBXGroup;
+			children = (
+				B788721C2B8C8E13002558C0 /* HDNotificationManager.swift */,
+			);
+			path = HDNotification;
+			sourceTree = "<group>";
+		};
+		B788722C2B8CCCC1002558C0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B788722D2B8CCD27002558C0 /* HDTeamSection.swift */,
+				B788723E2B8E21AC002558C0 /* HDAboutPlayer.swift */,
+				B78872282B8CBCA5002558C0 /* HDTeamVCell.swift */,
+				B77E0F982B95E3BD00932FA8 /* HDTeamInventoryAddV.swift */,
+				B77E0F9A2B95E3CB00932FA8 /* HDTeamInventoryCell.swift */,
+				B788722F2B8D9A24002558C0 /* HDTeamAddPlayer.swift */,
+				B77854032B966C5F003FFBD4 /* HDTeamInventoryForNewPlayer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B78872332B8DA3C1002558C0 /* HDImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B78872342B8DA3DF002558C0 /* HDImagePicker.swift */,
+			);
+			path = HDImagePicker;
+			sourceTree = "<group>";
+		};
+		B78872402B8F5233002558C0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B78872412B8F5245002558C0 /* HDInventoryCell.swift */,
+				B767D4CA2B8FC9F9006BBED3 /* HDCreateInventary.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B788724D2B8F92B3002558C0 /* HDSwipeButtonsCell */ = {
+			isa = PBXGroup;
+			children = (
+				B78872452B8F5682002558C0 /* SwipeButtonInCell.swift */,
+			);
+			path = HDSwipeButtonsCell;
+			sourceTree = "<group>";
+		};
+		B7BCF54D2B97280100AC0CBF /* HDDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCF54E2B97281400AC0CBF /* HDDateFormetter.swift */,
+			);
+			path = HDDateFormatter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7789F4B2B8C5875000C1939 /* Hockey Dairy Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7789F5F2B8C5877000C1939 /* Build configuration list for PBXNativeTarget "Hockey Dairy Application" */;
+			buildPhases = (
+				B7789F482B8C5875000C1939 /* Sources */,
+				B7789F492B8C5875000C1939 /* Frameworks */,
+				B7789F4A2B8C5875000C1939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hockey Dairy Application";
+			productName = "Hockey Dairy Application";
+			productReference = B7789F4C2B8C5875000C1939 /* 1W Hockey : Forward to success.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7789F442B8C5875000C1939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B7789F4B2B8C5875000C1939 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B7789F472B8C5875000C1939 /* Build configuration list for PBXProject "Hockey Dairy Application" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7789F432B8C5875000C1939;
+			productRefGroup = B7789F4D2B8C5875000C1939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7789F4B2B8C5875000C1939 /* Hockey Dairy Application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7789F4A2B8C5875000C1939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7789F572B8C5877000C1939 /* Preview Assets.xcassets in Resources */,
+				B7789F542B8C5877000C1939 /* Assets.xcassets in Resources */,
+				B7789F932B8C5DD2000C1939 /* AppName.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7789F482B8C5875000C1939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B767D5082B93660F006BBED3 /* HDBigBanner.swift in Sources */,
+				B767D4D82B908A1C006BBED3 /* HDInventoryVM.swift in Sources */,
+				B767D50C2B947254006BBED3 /* HDCalendarTimePicker.swift in Sources */,
+				B78872292B8CBCA5002558C0 /* HDTeamVCell.swift in Sources */,
+				B7789F8F2B8C5A7C000C1939 /* HDTeamV.swift in Sources */,
+				B7789F692B8C58E8000C1939 /* HDCoreDataManager.swift in Sources */,
+				B788723B2B8DBE27002558C0 /* HDRoundedPositionField.swift in Sources */,
+				B767D4E62B9205F5006BBED3 /* HDCalendarVM.swift in Sources */,
+				B767D4DD2B909398006BBED3 /* HDPageWrIos15.swift in Sources */,
+				B788721D2B8C8E13002558C0 /* HDNotificationManager.swift in Sources */,
+				B7BCF54F2B97281400AC0CBF /* HDDateFormetter.swift in Sources */,
+				B78872232B8CAB5F002558C0 /* HDTeamVM.swift in Sources */,
+				B767D50E2B94762E006BBED3 /* HDCalendarTextField.swift in Sources */,
+				B78872302B8D9A24002558C0 /* HDTeamAddPlayer.swift in Sources */,
+				B7789F872B8C5A58000C1939 /* HDSettingsV.swift in Sources */,
+				B77E0F9B2B95E3CB00932FA8 /* HDTeamInventoryCell.swift in Sources */,
+				B78872462B8F5682002558C0 /* SwipeButtonInCell.swift in Sources */,
+				B767D4D12B9088C3006BBED3 /* HDShoppingListItemV.swift in Sources */,
+				B77854042B966C5F003FFBD4 /* HDTeamInventoryForNewPlayer.swift in Sources */,
+				B78872372B8DAC30002558C0 /* HDRoundedTextField.swift in Sources */,
+				B7789F912B8C5A86000C1939 /* HDWVV.swift in Sources */,
+				B788721A2B8C7581002558C0 /* HDImageDots.swift in Sources */,
+				B7789F6F2B8C5918000C1939 /* HDWVManager.swift in Sources */,
+				B78872252B8CABEE002558C0 /* HDEmptyView.swift in Sources */,
+				B788722E2B8CCD27002558C0 /* HDTeamSection.swift in Sources */,
+				B767D50A2B946A98006BBED3 /* HDCalendarDatePicker.swift in Sources */,
+				B78872272B8CB34A002558C0 /* HDEntityType.swift in Sources */,
+				B7789F812B8C5A21000C1939 /* HDSplashV.swift in Sources */,
+				B76734AD2B8FA9CF00F4D6BD /* HDInventoryV.swift in Sources */,
+				B78872182B8C73D7002558C0 /* HDRoundedBtn.swift in Sources */,
+				B767D4CD2B8FCC6F006BBED3 /* HDInventoryTypeField.swift in Sources */,
+				B7789F502B8C5875000C1939 /* Hockey_Dairy_ApplicationApp.swift in Sources */,
+				B788722B2B8CBD27002558C0 /* HDBaloonTag.swift in Sources */,
+				B78872442B8F52FA002558C0 /* HDInventoryType.swift in Sources */,
+				B7789F5C2B8C5877000C1939 /* Hockey_Dairy_Application.xcdatamodeld in Sources */,
+				B788723D2B8DC14D002558C0 /* HDPositionAlert.swift in Sources */,
+				B7789F892B8C5A61000C1939 /* HDCalendarV.swift in Sources */,
+				B7B87FD02B98929400F93B20 /* HDSettingsVM.swift in Sources */,
+				B767D4DA2B908A2D006BBED3 /* HDShoppingListVM.swift in Sources */,
+				B767D5102B947FE5006BBED3 /* HDCalendarAdditionalInfo.swift in Sources */,
+				B788721F2B8CA2EE002558C0 /* HDPageWr.swift in Sources */,
+				B7789F8B2B8C5A6B000C1939 /* HDShoppingListV.swift in Sources */,
+				B7789F7F2B8C5A18000C1939 /* HDSplashVM.swift in Sources */,
+				B78872422B8F5245002558C0 /* HDInventoryCell.swift in Sources */,
+				B767D4C92B8FBFD4006BBED3 /* HDTabVM.swift in Sources */,
+				B78872482B8F5806002558C0 /* HDAddButton.swift in Sources */,
+				B767D4D32B9088D4006BBED3 /* HDShoppintListCell.swift in Sources */,
+				B78872212B8CAA57002558C0 /* HockeyPlayerTypeModel.swift in Sources */,
+				B7789F752B8C59A1000C1939 /* HDProgressBarModel.swift in Sources */,
+				B767D4CF2B8FD0FD006BBED3 /* HDInventoryAlert.swift in Sources */,
+				B7789F852B8C5A44000C1939 /* HDOnboardingV.swift in Sources */,
+				B78872132B8C718F002558C0 /* HDOnboardingModel.swift in Sources */,
+				B788720E2B8C673C002558C0 /* HDNetworkManager.swift in Sources */,
+				B767D4CB2B8FC9F9006BBED3 /* HDCreateInventary.swift in Sources */,
+				B767D4E42B9205D5006BBED3 /* HDCalendarAbout.swift in Sources */,
+				B78872162B8C738B002558C0 /* HDOnboardingCell.swift in Sources */,
+				B77E0F992B95E3BD00932FA8 /* HDTeamInventoryAddV.swift in Sources */,
+				B767D4E02B920599006BBED3 /* HDCalendarCell.swift in Sources */,
+				B7789F832B8C5A37000C1939 /* HDOnboardingVM.swift in Sources */,
+				B78872322B8DA21F002558C0 /* HDIconCloseButton.swift in Sources */,
+				B78872352B8DA3DF002558C0 /* HDImagePicker.swift in Sources */,
+				B78872112B8C6F54002558C0 /* HDTabView.swift in Sources */,
+				B7789F732B8C5988000C1939 /* HDTextEditorBackground.swift in Sources */,
+				B7789F712B8C5974000C1939 /* HDExtensionCornerRadiusWithBorder.swift in Sources */,
+				B7789F6C2B8C58FA000C1939 /* HDCombineManager.swift in Sources */,
+				B78872392B8DB27A002558C0 /* HDRoundedDatePicker.swift in Sources */,
+				B788723F2B8E21AC002558C0 /* HDAboutPlayer.swift in Sources */,
+				B788724C2B8F5E89002558C0 /* HDSearchBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7789F5D2B8C5877000C1939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7789F5E2B8C5877000C1939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7789F602B8C5877000C1939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon Alt";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSET_PACK_MANIFEST_URL_PREFIX = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hockey Dairy Application/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.Hockey-Dairy-Application";
+				PRODUCT_NAME = "1W Hockey : Forward to success";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7789F612B8C5877000C1939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon Alt";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSET_PACK_MANIFEST_URL_PREFIX = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hockey Dairy Application/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.Hockey-Dairy-Application";
+				PRODUCT_NAME = "1W Hockey : Forward to success";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7789F472B8C5875000C1939 /* Build configuration list for PBXProject "Hockey Dairy Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7789F5D2B8C5877000C1939 /* Debug */,
+				B7789F5E2B8C5877000C1939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7789F5F2B8C5877000C1939 /* Build configuration list for PBXNativeTarget "Hockey Dairy Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7789F602B8C5877000C1939 /* Debug */,
+				B7789F612B8C5877000C1939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7789F5A2B8C5877000C1939 /* Hockey_Dairy_Application.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7789F5B2B8C5877000C1939 /* Hockey_Dairy_Application.xcdatamodel */,
+			);
+			currentVersion = B7789F5B2B8C5877000C1939 /* Hockey_Dairy_Application.xcdatamodel */;
+			path = Hockey_Dairy_Application.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7789F442B8C5875000C1939 /* Project object */;
+}
